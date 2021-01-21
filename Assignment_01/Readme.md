@@ -11,6 +11,6 @@ In order to run it on Windows, you need to execute the following commands:
 3. javac Driver.java
 4. java Driver \<\<TestFile\>\>
 
-The output will be printed on stdout and will be stored in Results.obj (Serialized Objet File) file in the form of List<HashMap<String,Long> >, which is a list of HashMaps storing the name of arrays against their respectve cache misses.
+The output will be printed on stdout and will be stored in Results.obj (Serialized Object File) file in the form of List<HashMap<String,Long> >, which is a list of HashMaps storing the name of arrays against their respectve cache misses.
 
 Note: A sample test file is given - UnitTestCases.java
